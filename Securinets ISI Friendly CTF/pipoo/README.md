@@ -15,7 +15,7 @@ The flag format is: `Securinets{}`
 ---
 ## Solution
 ```bash
-wireshark full_challenge_b64.pcap
+wireshark usbcap.pcap
 ```
 this isnt your usual network packet there are new types of packets which forces you to google some 
 
@@ -26,6 +26,7 @@ looking farther in the pcap there is input as HID data googling how to decrypt t
 "pipotammybeloved"
 
 thats the flag
+
 
 
 
