@@ -1,2 +1,4 @@
-# ctfs
-list of either ctfs i authored and writeups for challenges i did.
+### AUTHORING & WRITEUPS
+
+
+just a repo to share knowledge with brothers of ctfs
