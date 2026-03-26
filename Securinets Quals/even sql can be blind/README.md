@@ -1,7 +1,7 @@
 # Blind SQLi PCAP Extraction
 
 ## Step 1
-
+This is a blind sql attack captured with tcpdump, with simple observation you can find requests that have base64 encrypted sql attacks so we just extract all of them and decrypt them first.
 Extract all POST bodies:
 
 ```bash
@@ -25,7 +25,7 @@ done < post_bodies.txt > payloads.txt
 
 ## Step 3
 
-Extract characters using Python:
+Then just take the right character for each position of the blind sqli:
 
 ```python
 import re
